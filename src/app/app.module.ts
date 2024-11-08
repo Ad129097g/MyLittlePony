@@ -11,6 +11,7 @@ import { NovedadesComponent } from './components/novedades/novedades.component';
 import { ComunidadComponent } from './components/comunidad/comunidad.component';
 import { MusicaComponent } from './components/musica/musica.component';
 import { NavmenuComponent } from './components/navmenu/navmenu.component';
+import { RouterLink } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NavmenuComponent } from './components/navmenu/navmenu.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterLink
   ],
   providers: [],
   bootstrap: [AppComponent]
