@@ -12,10 +12,13 @@ import { ComunidadComponent } from './components/comunidad/comunidad.component';
 import { MusicaComponent } from './components/musica/musica.component';
 import { NavmenuComponent } from './components/navmenu/navmenu.component';
 import { RouterLink } from '@angular/router';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    FooterComponent,
     HomeComponent,
     PersonajesComponent,
     SeriesPeliculasComponent,
@@ -23,7 +26,8 @@ import { RouterLink } from '@angular/router';
     NovedadesComponent,
     ComunidadComponent,
     MusicaComponent,
-    NavmenuComponent
+    NavmenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

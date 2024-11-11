@@ -1,38 +1,35 @@
-/* Estilo para el navbar */
+#nav{
+  position: fixed;
+}
 .navbar-custom {
-  background-color: #11161f !important; /* Color de fondo */
+  background-color: #010a1bef !important; 
 }
 
-/* Estilo para los links y items dentro del navbar */
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link,
 .navbar-custom .dropdown-item {
-  color: white !important; /* Color de los textos */
+  color: white !important; 
 }
 
-/* Estilo para el menú desplegable */
 .navbar-custom .dropdown-menu {
-  background-color: #11161f !important; /* El mismo color que el navbar */
-  border: none; /* Eliminar el borde para hacerlo más limpio */
+  background-color: #11161f !important; 
+  border: none; 
 }
 
-/* Estilo para los elementos dentro del dropdown cuando son hover o activados */
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
-  background-color: #1a2430 !important; /* Color de fondo al pasar el mouse sobre los items */
-  color: white !important; /* Aseguramos que el texto siga siendo blanco al hacer hover */
+  background-color: #1a2430 !important; 
+  color: white !important; 
 }
-/* Espacio entre los elementos del menú */
+
 .navbar-nav .nav-item {
-  margin-right: 30px; /* Ajusta este valor según sea necesario */
+  margin-right: 30px; 
 }
 
-/* Si quieres un poco más de espacio entre los items de un dropdown */
 .navbar-nav .nav-item.dropdown .dropdown-menu {
-  margin-top: 10px; /* Opcional, para separar un poco el dropdown del navbar */
+  margin-top: 10px;
 }
 
-/* También puedes agregar margen entre los elementos del dropdown si lo deseas */
 .navbar-nav .nav-item.dropdown .dropdown-item {
-  padding: 10px 20px; /* Ajusta el padding según lo necesites */
+  padding: 10px 20px; 
 }

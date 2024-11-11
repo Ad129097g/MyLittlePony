@@ -1,0 +1,23 @@
+
+.carousel-item img {
+    opacity: 0.8; 
+}
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(175, 3, 243, 0.082);  
+    z-index: 1;  
+}
